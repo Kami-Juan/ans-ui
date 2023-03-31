@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "nuxt": "^3.3.2",
+    "vite-plugin-vuetify": "^1.0.2"
+  },
+  "dependencies": {
+    "@washingtonpost/ans-schema": "github:washingtonpost/ans-schema",
+    "vuetify": "^3.1.11"
+  }
+}
